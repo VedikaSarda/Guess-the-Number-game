@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Guess the Number game</h2>
+    <div class="container">
+        <p>Try and guess a ramdom number between 1 and 100.</p>
+        <p> You have 10 attempts to guess the right numbe </p>
+        <form  class="form">
+            <h1>Guess a number</h1>
+            <p><input type="text" id="guessfield" class="guessfield"></p>
+           <button class="submit" id="submit">Submit guess</button>
+        </form>
+       <div class="result">
+        <p>Previous Guesses: <span class="pg"></span></p>
+        <p>Remaining Guesses: <span class="rg">10</span></p>
+        <p class="loworhigh"></p>
+       </div>
+       </div>
+</body>
+<script src="script.js"></script>
+</html>
